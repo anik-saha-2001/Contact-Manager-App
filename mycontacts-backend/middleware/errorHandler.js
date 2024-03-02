@@ -35,7 +35,7 @@ const errorHandler = (err, req, res, next) => {
       });
       break;
 
-      case constants.SERVER_ERROR:
+    case constants.SERVER_ERROR:
       res.json({
         title: "Server Error",
         message: err.message,
@@ -44,7 +44,7 @@ const errorHandler = (err, req, res, next) => {
       break;
 
     default:
-      console.log("No Error, All good!")
+      console.log("No Error, All good!");
       break;
   }
 };
