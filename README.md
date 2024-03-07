@@ -38,3 +38,15 @@ Make sure you have the following software installed on your machine:
   npm run dev
   ```
 The server will run at http://localhost:5000 by default.
+
+### CRUD Operations
+
+Use a tool like Postman or ThunderClient to interact with the API.
+
+### Custom Error Handling
+
+The project includes a custom errorHandler middleware that checks the status code and displays custom error messages. If an error occurs, the middleware will log the error and return an appropriate error message.
+
+### Contributing
+
+If you would like to contribute to this project or have suggestions, feel free to open an issue or create a pull request.
